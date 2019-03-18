@@ -18,11 +18,24 @@ nav {
 }
 
 nav .brand-logo {
-	font-family: StrikeOne; 
+	font-family: StrikeOne;
+	margin-left: 20px; 
 }
 
 .container {
 	width: 100%;
 	height: 100%;
+}
+
+
+.header {
+	width: 80%;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+#title {
+	color: white;
 }
 
