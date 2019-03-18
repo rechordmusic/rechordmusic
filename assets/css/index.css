@@ -9,16 +9,6 @@
 	src: url(../fonts/Quest.otf);
 }
 
-body { 
-	background-image: url(../images/concert.jpg);
-	background-position: center center;
-	background-repeat:  no-repeat;
-	background-attachment: fixed;
-	background-size:  cover;
-	background-color: #999;
-}
-
-
 /* ----- Nav Bar ----- */
 nav {
 	box-shadow: none;
@@ -34,21 +24,42 @@ nav li {
 	font-family: Quest;
 }
 
-.container {
-	width: 100%;
-	height: 100%;
+
+/* ----- Body ----- */
+
+/* ----- header ----- */
+
+#index-banner { 
+	background-image: url(../images/concert.jpg);
+	background-position: center center;
+	background-repeat:  no-repeat;
+	background-attachment: fixed;
+	background-size:  cover;
+	background-color: #999;
 }
 
-
-.header {
-	width: 80%;
-	position: absolute;
-	left: 50%;
-	top: 50%;
-	transform: translate(-50%, -50%);
-}
 #title {
-	color: white;
+	font-family: StrikeOne;
+	font-size: 100px;
+}
+#slogan {
 	font-family: Quest;
+	font-size: 35px;
+}
+
+/* Three states of button: not active, hover, and selected */
+.btn-large {
+	color: white;
+	background: #7D90F8;
+}
+
+.btn-large:hover {
+	background: white;
+	color: #7D90F8;
+}
+
+.btn-large:focus {
+	background: #5A57A7;
+	color: white;
 }
 
