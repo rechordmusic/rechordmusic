@@ -1,3 +1,14 @@
+/* ----- Fonts ----- */
+@font-face {
+	font-family: StrikeOne;
+	src: url(../fonts/StrikeOne.otf);
+}
+
+@font-face {
+	font-family: Quest;
+	src: url(../fonts/Quest.otf);
+}
+
 body { 
 	background-image: url(../images/concert.jpg);
 	background-position: center center;
@@ -7,19 +18,20 @@ body {
 	background-color: #999;
 }
 
+
+/* ----- Nav Bar ----- */
 nav {
 	box-shadow: none;
 	background: transparent;
 }
 
-@font-face {
-	font-family: StrikeOne;
-	src: url(../fonts/StrikeOne.otf);
-}
-
 nav .brand-logo {
 	font-family: StrikeOne;
 	margin-left: 20px; 
+}
+
+nav li {
+	font-family: Quest;
 }
 
 .container {
@@ -37,5 +49,6 @@ nav .brand-logo {
 }
 #title {
 	color: white;
+	font-family: Quest;
 }
 
