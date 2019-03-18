@@ -27,6 +27,15 @@ nav li {
 
 /* ----- Body ----- */
 
+/* ----- helpers ----- */
+.StrikeOneFont {
+	font-family: StrikeOne;
+}
+
+.QuestFont {
+	font-family: Quest;
+}
+
 /* ----- header ----- */
 
 #index-banner { 
@@ -61,5 +70,9 @@ nav li {
 .btn-large:focus {
 	background: #5A57A7;
 	color: white;
+}
+
+#features p.medium {
+	font-size: 18px;
 }
 
