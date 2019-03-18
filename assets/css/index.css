@@ -7,7 +7,22 @@ body {
 	background-color: #999;
 }
 
+nav {
+	box-shadow: none;
+	background: transparent;
+}
+
+@font-face {
+	font-family: StrikeOne;
+	src: url(../fonts/StrikeOne.otf);
+}
+
+nav .brand-logo {
+	font-family: StrikeOne; 
+}
+
 .container {
 	width: 100%;
 	height: 100%;
 }
+
